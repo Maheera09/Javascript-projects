@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(41, 35, 35);
+}
+.mainbody {
+    background-color: rgb(53, 46, 46);
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    /* border: 2px solid black; */
+    color: rgb(197, 193, 185)
+}
+.mainheading{
+    text-align: center;
+    color: rgb(255, 254, 252);
+    padding: 42px;
+    padding-bottom: 10px;
+}
+.project-link {
+    height: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: rgb(201, 193, 193);
+    color: black;
+    display: block;
+    width: 64%;
+    margin: auto;
+    text-align: center;
+    border: none;
+    padding-top: 17px;
+    font-size: 20px;
+    box-shadow: 3px 3px rgb(149, 140, 140);
+}
