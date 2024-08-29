@@ -1,0 +1,22 @@
+.canvas {
+    height: 534px;
+    width: 400px;
+    background-color: aquamarine;
+    margin: auto;
+}
+.canvas p{
+    padding-top: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+#start, #stop {
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 100px;
+    margin-top: 20px;
+    font-size: 25px;
+    border-radius: 20px;
+}
