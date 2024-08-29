@@ -2,9 +2,10 @@
 //     alert("owl clicked")
 // } provides less features, hence not a recommended aproach 
 
-// document.getElementById('owl').addEventListener('click', function(e){
-//     // console.log(e)
-// }, false)
+document.getElementById('owl').addEventListener('click', function(e){
+    console.log(e)
+    console.log(e.timeStamp)
+}, false)
 
 // document.getElementById('images').addEventListener('click', function(e){
 //     console.log('Clicked inside the ul');
@@ -22,12 +23,12 @@
 //     }, false)
 
 
-    document.querySelector('#images').addEventListener('click', function(e){
-    console.log(e.target.parentNode)
-    console.log(e.target.tagName)
-    if (e.target.tagName == 'IMG') {
-    let removeIt = e.target.parentNode
-    console.log(e.target.id);
-        removeIt.remove()
-    }
-    }, false)
+    // document.querySelector('#images').addEventListener('click', function(e){
+    // console.log(e.target.parentNode)
+    // console.log(e.target.tagName)
+    // if (e.target.tagName == 'IMG') {
+    // let removeIt = e.target.parentNode
+    // console.log(e.target.id);
+    //     removeIt.remove()
+    // }
+    // }, false)

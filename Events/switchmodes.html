@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Mode and Dark Mode</title>
+    <style>
+        body {
+            background-color: black;
+        }
+    </style>
+</head>
+<body class="body1">
+    <button id="mode">Change Mode</button>
+    <script>
+        const button = document.querySelector('#mode')
+        // console.log(button)
+        const body = document.querySelector('.body1')
+        // console.log(body)
+
+        button.addEventListener('click', function(e){
+            if (body.style.backgroundColor == 'white'){
+                body.style.backgroundColor = 'black'
+            }
+            else {
+                body.style.backgroundColor = 'white'
+            }
+        }, false)
+    </script>
+</body>
+</html>
