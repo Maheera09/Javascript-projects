@@ -4,7 +4,7 @@ body {
 .mainbody {
     background-color: rgb(53, 46, 46);
     width: 400px;
-    height: 600px;
+    height: 100%;
     margin: auto;
     /* border: 2px solid black; */
     color: rgb(197, 193, 185)
