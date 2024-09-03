@@ -13,7 +13,7 @@ addBtn.addEventListener('click', ()=>{
 
         var edit = document.createElement('button')
         edit.innerHTML = 'Edit'
-         edit.id="edits"
+        edit.id="edits"
         edit.classList.add('edit')
         li.appendChild(edit)
 
@@ -72,7 +72,7 @@ list.addEventListener('click', (e) => {
         } else if (e.target.classList.contains('edit')) {
             let currentText = li.firstChild.textContent;
             
-            li.innerHTML = ''; // Clear the <li> content
+            li.innerHTML = ''; 
 
             let input = document.createElement('input');
             input.type = 'text';
@@ -94,7 +94,7 @@ list.addEventListener('click', (e) => {
 
             saveBtn.addEventListener('click', () => {
                 let newText = input.value;
-                li.innerHTML = newText; // Set the new text
+                li.innerHTML = newText; 
                 
 
         var edit = document.createElement('button')
@@ -137,7 +137,7 @@ list.addEventListener('click', (e) => {
         var label = document.createElement('label')
         label.classList.add('label1')
         label.textContent = `${currentTime}`
-        li.appendChild(label) // Re-add the label
+        li.appendChild(label) 
         storedData()
             });
         }
