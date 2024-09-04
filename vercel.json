@@ -6,7 +6,7 @@
         "use": "@vercel/static"
       },
       {
-        "src": "mainstyle/*",
+        "src": "mainstyle.css",
         "use": "@vercel/static"
       },
       {
