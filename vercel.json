@@ -1,23 +1,5 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "projectmain.html",
-        "use": "@vercel/static"
-      },
-      {
-        "src": "styles/*",
-        "use": "@vercel/static"
-      },
-      {
-        "src": "scripts/*",
-        "use": "@vercel/static"
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/projectmain.html"
-      }
+    "rewrites": [
+      { "source": "/(.*)", "destination": "*/projectmain.html" }
     ]
   }
